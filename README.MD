@@ -29,14 +29,14 @@ pip install pillow
 
 
 # 下载html转化image的软件
-# 从http://wkhtmltopdf.org 下载wkhtmltoimage
-# weekly.py 模块的 drawTable()
-# config = imgkit.config(wkhtmltoimage='wkhtmltoimage的安装目录')
+#从http://wkhtmltopdf.org 下载wkhtmltoimage
+#weekly.py 模块的 drawTable()
+#config = imgkit.config(wkhtmltoimage='wkhtmltoimage的安装目录')
 
 
-# 找到macro文件 一般在  Lib/site-packages/pyecharts/render/templates
-# 找到 {% if chart._component_type == "table" %}
-# 修改 
+#找到macro文件 一般在  Lib/site-packages/pyecharts/render/templates
+#找到 {% if chart._component_type == "table" %}
+#修改 
 .fl-table {
                 margin: 20px;    -----> 修改成 margin: auto; 表格居中显示 
                 border-radius: 5px;
